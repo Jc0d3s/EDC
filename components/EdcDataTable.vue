@@ -188,7 +188,7 @@
     //             //     <tr>
     //             //         <slot>
     //             //             <span>testing</span>
-    //             //         </slot>
+    //             //    .     </slot>
     //             //     </tr>
     //             // `);
     //         }
