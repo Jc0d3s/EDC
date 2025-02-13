@@ -186,8 +186,8 @@
     //             // h("tr", "<tr><slot><span>testing</span></slot></tr>");
     //             // row.append(`
     //             //     <tr>
-    //             //         <slot>
-    //             //             <span>testing</span>
+    //             //     .  .  <slot>
+    //             //       .      <span>testing</span>
     //             //    .     </slot>
     //             //     </tr>
     //             // `);
