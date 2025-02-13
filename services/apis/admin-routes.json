@@ -1,0 +1,1600 @@
+{
+    "trialGroups": {
+        "paginationList": {
+            "endpoint": "TrialGroups/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "TrialGroups",
+            "method": "POST",
+            "action": "none"
+        },
+        "getByID": {
+            "endpoint": "TrialGroups",
+            "method": "GET",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "TrialGroups",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "TrialGroups",
+            "method": "DELETE",
+            "action": "none"
+        }
+    },
+    "trials": {
+        "paginationList": {
+            "endpoint": "Trials/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "listAll": {
+            "endpoint": "Trials",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "Trials",
+            "method": "POST",
+            "action": "none"
+        },
+        "getByID": {
+            "endpoint": "Trials",
+            "method": "GET",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "Trials",
+            "method": "PUT",
+            "action": "none"
+        },
+        "trialPhasesList": {
+            "endpoint": "TrialPhases",
+            "method": "GET",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "Trials",
+            "method": "DELETE",
+            "action": "none"
+        }
+    },
+    "trialSites": {
+        "paginationList": {
+            "endpoint": "TrialSites/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "listByTrialId": {
+            "endpoint": "TrialSites/TrialId",
+            "method": "GET",
+            "action": "none"
+        },
+        "updateTrialAndSiteAssign": {
+            "endpoint": "TrialSites",
+            "method": "PUT",
+            "action": "none"
+        }
+    },
+    "therapeuticAreas": {
+        "list": {
+            "endpoint": "TrialTherapeuticAreas",
+            "method": "GET",
+            "action": "none"
+        }
+    },
+    "trialEnvironments": {
+        "listByTrialId": {
+            "endpoint": "TrialEnvironments/TrialId",
+            "method": "GET",
+            "action": "none"
+        },
+        "paginationList": {
+            "endpoint": "TrialEnvironments/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "TrialEnvironments",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "TrialEnvironments",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "TrialEnvironments",
+            "method": "DELETE",
+            "action": "none"
+        }
+    },
+    "siteGroups": {
+        "list": {
+            "endpoint": "SiteGroups",
+            "method": "GET",
+            "action": "none"
+        },
+        "paginationList": {
+            "endpoint": "SiteGroups/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "SiteGroups",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "SiteGroups",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "SiteGroups",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "listByTrialId": {
+            "endpoint": "SiteGroups/TrialId",
+            "method": "GET",
+            "action": "none"
+        }
+    },
+    "sites": {
+        "listBySiteGroupId": {
+            "endpoint": "Sites/SiteGroupId",
+            "method": "GET",
+            "action": "none"
+        },
+        "paginationList": {
+            "endpoint": "Sites/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "Sites",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "Sites",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "Sites",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "listByTrialId": {
+            "endpoint": "Sites/TrialId",
+            "method": "GET",
+            "action": "none"
+        },
+        "listAll": {
+            "endpoint": "Sites",
+            "method": "GET",
+            "action": "none"
+        },
+        "therapeuticAreaPaginationList": {
+            "endpoint": "SiteTherapeuticAreas/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "therapeuticAreasAssign": {
+            "endpoint": "SiteTherapeuticAreas",
+            "method": "PUT",
+            "action": "none"
+        },
+        "therapeuticAreaInvestigatorPaginationList": {
+            "endpoint": "SiteTherapeuticAreaInvestigators/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "therapeuticAreaInvestigatorsAssign": {
+            "endpoint": "SiteTherapeuticAreaInvestigators",
+            "method": "PUT",
+            "action": "none"
+        },
+        "listByStudyId": {
+            "endpoint": "PublishReleaseVersionSites",
+            "method": "GET",
+            "action": "none"
+        }
+    },
+    "branches": {
+        "paginationList": {
+            "endpoint": "Branches/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "Branches",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "Branches",
+            "method": "PUT",
+            "action": "none"
+        },
+        "getByID": {
+            "endpoint": "Branches",
+            "method": "GET",
+            "action": "none"
+        },
+        "summaryCount": {
+            "endpoint": "Branches/SummaryCount",
+            "method": "GET",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "Branches",
+            "method": "DELETE",
+            "action": "none"
+        }
+    },
+    "forms": {
+        "paginationList": {
+            "endpoint": "Forms/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "listByBranchId": {
+            "endpoint": "Forms/BranchId",
+            "method": "GET",
+            "action": "none"
+        },
+        "listByTrialId": {
+            "endpoint": "Forms/TrialId",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "Forms",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "Forms",
+            "method": "PUT",
+            "action": "none"
+        },
+        "reorder": {
+            "endpoint": "Forms/Reorder",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "Forms",
+            "method": "DELETE",
+            "action": "none"
+        }
+    },
+    "trialVisits": {
+        "paginationList": {
+            "endpoint": "TrialVisits/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "listByBranchId": {
+            "endpoint": "TrialVisits/BranchId",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "TrialVisits",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "TrialVisits",
+            "method": "PUT",
+            "action": "none"
+        },
+        "listByTrialId": {
+            "endpoint": "TrialVisits/TrialId",
+            "method": "GET",
+            "action": "none"
+        },
+        "reorder": {
+            "endpoint": "TrialVisits/Reorder",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "TrialVisits",
+            "method": "DELETE",
+            "action": "none"
+        }
+    },
+    "dataDictionaries": {
+        "paginationList": {
+            "endpoint": "DataDictionaries/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "listByBranchId": {
+            "endpoint": "DataDictionaries/BranchId",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "DataDictionaries",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "DataDictionaries",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "DataDictionaries",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "entriesPaginationList": {
+            "endpoint": "DataDictionaryEntries/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "entriesCreate": {
+            "endpoint": "DataDictionaryEntries",
+            "method": "POST",
+            "action": "none"
+        },
+        "entriesUpdate": {
+            "endpoint": "DataDictionaryEntries",
+            "method": "PUT",
+            "action": "none"
+        },
+        "reorder": {
+            "endpoint": "DataDictionaryEntries/Reorder",
+            "method": "PUT",
+            "action": "none"
+        },
+        "deleteEntry": {
+            "endpoint": "DataDictionaryEntries",
+            "method": "DELETE",
+            "action": "none"
+        }
+    },
+    "unitDictionaries": {
+        "paginationList": {
+            "endpoint": "UnitDictionaries/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "listByBranchId": {
+            "endpoint": "UnitDictionaries/BranchId",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "UnitDictionaries",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "UnitDictionaries",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "UnitDictionaries",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "entriesPaginationList": {
+            "endpoint": "UnitDictionaryEntries/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "entriesCreate": {
+            "endpoint": "UnitDictionaryEntries",
+            "method": "POST",
+            "action": "none"
+        },
+        "entriesUpdate": {
+            "endpoint": "UnitDictionaryEntries",
+            "method": "PUT",
+            "action": "none"
+        },
+        "reorder": {
+            "endpoint": "UnitDictionaryEntries/Reorder",
+            "method": "PUT",
+            "action": "none"
+        },
+        "deleteEntry": {
+            "endpoint": "UnitDictionaryEntries",
+            "method": "DELETE",
+            "action": "none"
+        }
+    },
+    "matrices": {
+        "paginationList": {
+            "endpoint": "Matrices/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "listByBranchId": {
+            "endpoint": "Matrices/BranchId",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "Matrices",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "Matrices",
+            "method": "PUT",
+            "action": "none"
+        },
+        "assignedList": {
+            "endpoint": "FormFolders",
+            "method": "GET",
+            "action": "none"
+        },
+        "createAssignMatrices": {
+            "endpoint": "FormFolders",
+            "method": "POST",
+            "action": "none"
+        },
+        "updateAssignMatrices": {
+            "endpoint": "FormFolders",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "Matrices",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "reorder": {
+            "endpoint": "FormFolder/Reorder",
+            "method": "PUT",
+            "action": "none"
+        }
+    },
+    "editChecks": {
+        "paginationList": {
+            "endpoint": "EditChecks/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "list": {
+            "endpoint": "EditChecks",
+            "method": "GET",
+            "action": "none"
+        },
+        "listByBranchId": {
+            "endpoint": "EditChecks/BranchId",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "EditChecks",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "EditChecks",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "EditChecks",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "checkStepsList": {
+            "endpoint": "EditCheckSteps/EditCheckId",
+            "method": "GET",
+            "action": "none"
+        },
+        "createEditCheckStep": {
+            "endpoint": "EditCheckSteps",
+            "method": "POST",
+            "action": "none"
+        },
+        "updateEditCheckStep": {
+            "endpoint": "EditCheckSteps",
+            "method": "PUT",
+            "action": "none"
+        },
+        "deleteEditCheckStep": {
+            "endpoint": "EditCheckSteps",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "checkActionsList": {
+            "endpoint": "EditCheckActions/EditCheckId",
+            "method": "GET",
+            "action": "none"
+        },
+        "createEditCheckAction": {
+            "endpoint": "EditCheckActions",
+            "method": "POST",
+            "action": "none"
+        },
+        "updateEditCheckAction": {
+            "endpoint": "EditCheckActions",
+            "method": "PUT",
+            "action": "none"
+        },
+        "deleteEditCheckAction": {
+            "endpoint": "EditCheckActions",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "formDetailsByBranchId": {
+            "endpoint": "FormDetails/BranchId",
+            "method": "GET",
+            "action": "none"
+        },
+        "masterCheckFunctions": {
+            "endpoint": "MasterCheckFunctions",
+            "method": "GET",
+            "action": "none"
+        }
+    },
+    "formFields": {
+        "paginationList": {
+            "endpoint": "FormFields/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "listByFormId": {
+            "endpoint": "FormFields/FormId",
+            "method": "GET",
+            "action": "none"
+        },
+        "listByTrialId": {
+            "endpoint": "FormFields/TrialId",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "FormFields",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "FormFields",
+            "method": "PUT",
+            "action": "none"
+        },
+        "listControlTypes": {
+            "endpoint": "ControlTypes",
+            "method": "GET",
+            "action": "none"
+        },
+        "listByVarOIDAndFieldId": {
+            "endpoint": "FieldVariables",
+            "method": "GET",
+            "action": "none"
+        },
+        "getByID": {
+            "endpoint": "FormFields/FieldId",
+            "method": "GET",
+            "action": "none"
+        },
+        "reorder": {
+            "endpoint": "FormFields/Reorder",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "FormFields",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "preview": {
+            "endpoint": "PreviewFormFields/FormId",
+            "method": "GET",
+            "action": "none"
+        },
+        "assignedDerivations": {
+            "endpoint": "AssignedDerivations",
+            "method": "GET",
+            "action": "none"
+        },
+        "fieldVisiblityEditChecks": {
+            "endpoint": "FieldVisiblityEditChecks",
+            "method": "GET",
+            "action": "none"
+        },
+        "disableFieldEditChecks": {
+            "endpoint": "DisableFieldEditChecks",
+            "method": "GET",
+            "action": "none"
+        }
+    },
+    "fieldVariables": {
+        "list": {
+            "endpoint": "FieldVariables",
+            "method": "GET",
+            "action": "none"
+        }
+    },
+    "users": {
+        "paginationList": {
+            "endpoint": "Users/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "createUser": {
+            "endpoint": "Users",
+            "method": "POST",
+            "action": "none"
+        },
+        "updateUser": {
+            "endpoint": "Users",
+            "method": "PUT",
+            "action": "none"
+        },
+        "deleteUser": {
+            "endpoint": "Users",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "rolesPaginationList": {
+            "endpoint": "Roles/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "createRole": {
+            "endpoint": "Roles",
+            "method": "POST",
+            "action": "none"
+        },
+        "updateRole": {
+            "endpoint": "Roles",
+            "method": "PUT",
+            "action": "none"
+        },
+        "deleteRole": {
+            "endpoint": "Roles",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "listRoles": {
+            "endpoint": "Roles",
+            "method": "GET",
+            "action": "none"
+        },
+        "listOrganizations": {
+            "endpoint": "Users/ListAllUserOrganizations",
+            "method": "GET",
+            "action": "none"
+        },
+        "listEnterprises": {
+            "endpoint": "Users/ListAllUserEnterpriseNames",
+            "method": "GET",
+            "action": "none"
+        },
+        "listUsersByRole": {
+            "endpoint": "Users/Roles",
+            "method": "GET",
+            "action": "none"
+        },
+        "roleGroupMasterPaginationList": {
+            "endpoint": "MasterRoleGroups/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "createRoleGroupMaster": {
+            "endpoint": "MasterRoleGroups",
+            "method": "POST",
+            "action": "none"
+        },
+        "updateRoleGroupMaster": {
+            "endpoint": "MasterRoleGroups",
+            "method": "PUT",
+            "action": "none"
+        },
+        "deleteRoleGroupMaster": {
+            "endpoint": "MasterRoleGroups",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "roleGroupsPaginationList": {
+            "endpoint": "RoleGroups/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "assignRoleGroups": {
+            "endpoint": "RoleGroups",
+            "method": "PUT",
+            "action": "none"
+        },
+        "rolesListByGroupName": {
+            "endpoint": "Roles/GroupName",
+            "method": "GET",
+            "action": "none"
+        }
+    },
+    "subjectFieldConfigs": {
+        "paginationList": {
+            "endpoint": "SubjectFieldConfigs/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "SubjectFieldConfigs",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "SubjectFieldConfigs",
+            "method": "PUT",
+            "action": "none"
+        },
+        "reorder": {
+            "endpoint": "SubjectFieldConfigs/Reorder",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "SubjectFieldConfigs",
+            "method": "DELETE",
+            "action": "none"
+        }
+    },
+    "derivations": {
+        "paginationList": {
+            "endpoint": "Derivations/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "Derivations",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "Derivations",
+            "method": "PUT",
+            "action": "none"
+        },
+        "list": {
+            "endpoint": "Derivations",
+            "method": "GET",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "Derivations",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "derivationStepsList": {
+            "endpoint": "DerivationSteps/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "createDerivationStep": {
+            "endpoint": "DerivationSteps",
+            "method": "POST",
+            "action": "none"
+        },
+        "updateDerivationStep": {
+            "endpoint": "DerivationSteps",
+            "method": "PUT",
+            "action": "none"
+        },
+        "deleteDerivationStep": {
+            "endpoint": "DerivationSteps",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "derivationActionsList": {
+            "endpoint": "DerivationActions/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "createDerivationAction": {
+            "endpoint": "DerivationActions",
+            "method": "POST",
+            "action": "none"
+        },
+        "updateDerivationAction": {
+            "endpoint": "DerivationActions",
+            "method": "PUT",
+            "action": "none"
+        },
+        "deleteDerivationAction": {
+            "endpoint": "DerivationActions",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "masterDerivationFunctions": {
+            "endpoint": "MasterDerivationFunctions",
+            "method": "GET",
+            "action": "none"
+        },
+        "listByBranchId": {
+            "endpoint": "Derivations/BranchId",
+            "method": "GET",
+            "action": "none"
+        }
+    },
+    "customFunctions": {
+        "paginationList": {
+            "endpoint": "CustomFunctions/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "CustomFunctions",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "CustomFunctions",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "CustomFunctions",
+            "method": "DELETE",
+            "action": "none"
+        }
+    },
+    "studySites": {
+        "paginationList": {
+            "endpoint": "StudySites/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "StudySites",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "StudySites",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "StudySites",
+            "method": "DELETE",
+            "action": "none"
+        }
+    },
+    "studyUsers": {
+        "paginationList": {
+            "endpoint": "StudyUsers/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "StudyUsers",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "StudyUsers",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "StudyUsers",
+            "method": "DELETE",
+            "action": "none"
+        }
+    },
+    "studyUserSites": {
+        "paginationList": {
+            "endpoint": "StudyUserSites/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "StudyUserSites",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "StudyUserSites",
+            "method": "DELETE",
+            "action": "none"
+        }
+    },
+    "studySiteInvestigators": {
+        "paginationList": {
+            "endpoint": "StudySiteInvestigators/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "StudySiteInvestigators",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "StudySiteInvestigators",
+            "method": "DELETE",
+            "action": "none"
+        }
+    },
+    "globalLibraries": {
+        "dataDictionaries": {
+            "paginationList": {
+                "endpoint": "DataDictionaryLibraries/PagedResponse",
+                "method": "GET",
+                "action": "none"
+            },
+            "create": {
+                "endpoint": "DataDictionaryLibraries",
+                "method": "POST",
+                "action": "none"
+            },
+            "update": {
+                "endpoint": "DataDictionaryLibraries",
+                "method": "PUT",
+                "action": "none"
+            },
+            "delete": {
+                "endpoint": "DataDictionaryLibraries",
+                "method": "DELETE",
+                "action": "none"
+            },
+            "entriesPaginationList": {
+                "endpoint": "DataDictionaryEntryLibraries/PagedResponse",
+                "method": "GET",
+                "action": "none"
+            },
+            "entriesCreate": {
+                "endpoint": "DataDictionaryEntryLibraries",
+                "method": "POST",
+                "action": "none"
+            },
+            "entriesUpdate": {
+                "endpoint": "DataDictionaryEntryLibraries",
+                "method": "PUT",
+                "action": "none"
+            },
+            "reorder": {
+                "endpoint": "DataDictionaryEntryLibraries/Reorder",
+                "method": "PUT",
+                "action": "none"
+            },
+            "deleteEntry": {
+                "endpoint": "DataDictionaryEntryLibraries",
+                "method": "DELETE",
+                "action": "none"
+            }
+        },
+        "unitDictionaries": {
+            "paginationList": {
+                "endpoint": "UnitDictionaryLibraries/PagedResponse",
+                "method": "GET",
+                "action": "none"
+            },
+            "create": {
+                "endpoint": "UnitDictionaryLibraries",
+                "method": "POST",
+                "action": "none"
+            },
+            "update": {
+                "endpoint": "UnitDictionaryLibraries",
+                "method": "PUT",
+                "action": "none"
+            },
+            "delete": {
+                "endpoint": "UnitDictionaryLibraries",
+                "method": "DELETE",
+                "action": "none"
+            },
+            "entriesPaginationList": {
+                "endpoint": "UnitDictionaryEntryLibraries/PagedResponse",
+                "method": "GET",
+                "action": "none"
+            },
+            "entriesCreate": {
+                "endpoint": "UnitDictionaryEntryLibraries",
+                "method": "POST",
+                "action": "none"
+            },
+            "entriesUpdate": {
+                "endpoint": "UnitDictionaryEntryLibraries",
+                "method": "PUT",
+                "action": "none"
+            },
+            "reorder": {
+                "endpoint": "UnitDictionaryEntryLibraries/Reorder",
+                "method": "PUT",
+                "action": "none"
+            },
+            "deleteEntry": {
+                "endpoint": "UnitDictionaryEntryLibraries",
+                "method": "DELETE",
+                "action": "none"
+            }
+        },
+        "editChecks": {
+            "paginationList": {
+                "endpoint": "EditCheckLibraries/PagedResponse",
+                "method": "GET",
+                "action": "none"
+            },
+            "create": {
+                "endpoint": "EditCheckLibraries",
+                "method": "POST",
+                "action": "none"
+            },
+            "update": {
+                "endpoint": "EditCheckLibraries",
+                "method": "PUT",
+                "action": "none"
+            },
+            "delete": {
+                "endpoint": "EditCheckLibraries",
+                "method": "DELETE",
+                "action": "none"
+            },
+            "checkStepsList": {
+                "endpoint": "EditCheckStepLibraries/EditCheckLibraryId",
+                "method": "GET",
+                "action": "none"
+            },
+            "createEditCheckStep": {
+                "endpoint": "EditCheckStepLibraries",
+                "method": "POST",
+                "action": "none"
+            },
+            "updateEditCheckStep": {
+                "endpoint": "EditCheckStepLibraries",
+                "method": "PUT",
+                "action": "none"
+            },
+            "deleteEditCheckStep": {
+                "endpoint": "EditCheckStepLibraries",
+                "method": "DELETE",
+                "action": "none"
+            },
+            "checkActionsList": {
+                "endpoint": "EditCheckActionLibraries/EditCheckLibraryId",
+                "method": "GET",
+                "action": "none"
+            },
+            "createEditCheckAction": {
+                "endpoint": "EditCheckActionLibraries",
+                "method": "POST",
+                "action": "none"
+            },
+            "updateEditCheckAction": {
+                "endpoint": "EditCheckActionLibraries",
+                "method": "PUT",
+                "action": "none"
+            },
+            "deleteEditCheckAction": {
+                "endpoint": "EditCheckActionLibraries",
+                "method": "DELETE",
+                "action": "none"
+            }
+        }
+    },
+    "formRestrictions": {
+        "list": {
+            "endpoint": "FormRestrictions",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "FormRestrictions",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "FormRestrictions",
+            "method": "PUT",
+            "action": "none"
+        }
+    },
+    "fieldRestrictions": {
+        "list": {
+            "endpoint": "FieldRestrictions/FormId",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "FieldRestrictions",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "FieldRestrictions",
+            "method": "PUT",
+            "action": "none"
+        }
+    },
+    "globalFieldRestrictions": {
+        "list": {
+            "endpoint": "GlobalFieldRestrictions/FormId",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "GlobalFieldRestrictions",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "GlobalFieldRestrictions",
+            "method": "PUT",
+            "action": "none"
+        },
+        "assignToAllFields": {
+            "endpoint": "AddGlobalFieldRestrictionTemplate",
+            "method": "PUT",
+            "action": "none"
+        },
+        "removeFromAllFields": {
+            "endpoint": "RemoveGlobalFieldRestrictionTemplate",
+            "method": "DELETE",
+            "action": "none"
+        }
+    },
+    "subjectFormConfigs": {
+        "paginationList": {
+            "endpoint": "SubjectFormConfigs/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "listByTrialId": {
+            "endpoint": "SubjectFormConfigs",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "SubjectFormConfigs",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "SubjectFormConfigs",
+            "method": "PUT",
+            "action": "none"
+        },
+        "reorder": {
+            "endpoint": "SubjectFormConfigs/Reorder",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "SubjectFormConfigs",
+            "method": "DELETE",
+            "action": "none"
+        }
+    },
+    "subjects": {
+        "paginationList": {
+            "endpoint": "Subjects/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "Subjects",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "Subjects",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "Subjects",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "subjectDetails": {
+            "endpoint": "SubjectDetails",
+            "method": "GET",
+            "action": "none"
+        },
+        "listAllByStudyId": {
+            "endpoint": "Subjects/StudyId",
+            "method": "GET",
+            "action": "none"
+        },
+        "onboardSubjectsPaginationList": {
+            "endpoint": "OnboardSubjects/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "changeSubjectStatus": {
+            "endpoint": "SubjectStatus",
+            "method": "PUT",
+            "action": "none"
+        },
+        "addVisit": {
+            "endpoint": "AddVisit",
+            "method": "POST",
+            "action": "none"
+        },
+        "addEvent": {
+            "endpoint": "AddEvent",
+            "method": "POST",
+            "action": "none"
+        },
+        "subjectStatusesList": {
+            "endpoint": "SubjectStatuses",
+            "method": "GET",
+            "action": "none"
+        },
+        "copySubjects": {
+            "endpoint": "CopySubjects",
+            "method": "POST",
+            "action": "none"
+        },
+        "exportData": {
+            "endpoint": "ExportOnboardSubjects",
+            "method": "POST",
+            "action": "none"
+        },
+        "updateFormActivationStatus": {
+            "endpoint": "UpdateFormActivationStatus",
+            "method": "PUT",
+            "action": "none"
+        },
+        "publishedSubjectInactivateForms": {
+            "endpoint": "PublishedSubjectInactivateForms",
+            "method": "GET",
+            "action": "none"
+        }
+    },
+    "branchEmailAlerts": {
+        "paginationList": {
+            "endpoint": "EmailAlertConfigs/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "EmailAlertConfigs",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "EmailAlertConfigs",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "EmailAlertConfigs",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "templateDetails": {
+            "endpoint": "EmailAlertConfigTemplates/EmailAlertConfigId",
+            "method": "GET",
+            "action": "none"
+        },
+        "templateCreate": {
+            "endpoint": "EmailAlertConfigTemplates",
+            "method": "POST",
+            "action": "none"
+        },
+        "templateUpdate": {
+            "endpoint": "EmailAlertConfigTemplates",
+            "method": "PUT",
+            "action": "none"
+        },
+        "templateDelete": {
+            "endpoint": "EmailAlertConfigTemplates",
+            "method": "DELETE",
+            "action": "none"
+        }
+    },
+    "releaseVersions": {
+        "paginationList": {
+            "endpoint": "ReleaseVersions/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "listByBranchId": {
+            "endpoint": "ReleaseVersions",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "ReleaseVersions",
+            "method": "POST",
+            "action": "none"
+        },
+        "summaryCount": {
+            "endpoint": "ReleaseVersions/SummaryCount",
+            "method": "GET",
+            "action": "none"
+        },
+        "pushCRFVersion": {
+            "endpoint": "PushCRFVersion",
+            "method": "POST",
+            "action": "none"
+        },
+        "getPushedDetailsByIds": {
+            "endpoint": "PublishReleaseVersions",
+            "method": "GET",
+            "action": "none"
+        },
+        "detailsByReleaseVersionId": {
+            "endpoint": "PublishedVersions",
+            "method": "GET",
+            "action": "none"
+        },
+        "updateDetailsById": {
+            "endpoint": "PublishedVersions",
+            "method": "PUT",
+            "action": "none"
+        },
+        "overwriteVersion": {
+            "endpoint": "OverwriteReleaseVersions",
+            "method": "PUT",
+            "action": "none"
+        },
+        "overwrittenVersionListByReleaseVersionId": {
+            "endpoint": "OverwrittenReleaseVersions",
+            "method": "GET",
+            "action": "none"
+        },
+        "crfVersionSitesPaginationList": {
+            "endpoint": "CRFVersionSites/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "listByTrialId": {
+            "endpoint": "PublishedVersions/TrialId",
+            "method": "GET",
+            "action": "none"
+        }
+    },
+    "releaseVersionDetails": {
+        "formPaginationList": {
+            "endpoint": "PublishedForms/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "formListByReleaseVersionId": {
+            "endpoint": "PublishedForms/ReleaseVersionId",
+            "method": "GET",
+            "action": "none"
+        },
+        "formFieldPaginationList": {
+            "endpoint": "PublishedFormFields/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "formFieldDetailsById": {
+            "endpoint": "PublishedFormFields/FieldId",
+            "method": "GET",
+            "action": "none"
+        },
+        "previewFormField": {
+            "endpoint": "PreviewPublishedFormFields/FormId",
+            "method": "GET",
+            "action": "none"
+        },
+        "assignedDerivations": {
+            "endpoint": "PublishedFormIdAssignedDerivations",
+            "method": "GET",
+            "action": "none"
+        },
+        "fieldVisiblityEditChecks": {
+            "endpoint": "PublishedFieldVisiblityEditChecks",
+            "method": "GET",
+            "action": "none"
+        },
+        "disableFieldEditChecks": {
+            "endpoint": "PublishedDisableFieldEditChecks",
+            "method": "GET",
+            "action": "none"
+        },
+        "trialVisitPaginationList": {
+            "endpoint": "PublishedTrialVisits/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "trialVisitListByReleaseVersionId": {
+            "endpoint": "PublishedTrialVisits/ReleaseVersionId",
+            "method": "GET",
+            "action": "none"
+        },
+        "dataDictionaryPaginationList": {
+            "endpoint": "PublishedDataDictionaries/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "dataDictionaryEntryPaginationList": {
+            "endpoint": "PublishedDataDictionaryEntries/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "dataDictionaryListByReleaseVersionId": {
+            "endpoint": "PublishedDataDictionaries",
+            "method": "GET",
+            "action": "none"
+        },
+        "unitDictionaryPaginationList": {
+            "endpoint": "PublishedUnitDictionaries/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "unitDictionaryEntryPaginationList": {
+            "endpoint": "PublishedUnitDictionaryEntries/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "unitDictionaryListByReleaseVersionId": {
+            "endpoint": "PublishedUnitDictionaries",
+            "method": "GET",
+            "action": "none"
+        },
+        "matrixPaginationList": {
+            "endpoint": "PublishedMatrices/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "matrixListByReleaseVersionId": {
+            "endpoint": "PublishedMatrices",
+            "method": "GET",
+            "action": "none"
+        },
+        "assignMatrixListByMatrixId": {
+            "endpoint": "PublishedFormFolders/MatricesId",
+            "method": "GET",
+            "action": "none"
+        },
+        "formRestrictionListByPublishedFormId": {
+            "endpoint": "PublishedFormRestrictions",
+            "method": "GET",
+            "action": "none"
+        },
+        "fieldRestrictionListByPublishedFormId": {
+            "endpoint": "PublishedFieldRestrictions",
+            "method": "GET",
+            "action": "none"
+        },
+        "globalFieldRestrictionListByPublishedFormId": {
+            "endpoint": "PublishedGlobalFieldRestrictions",
+            "method": "GET",
+            "action": "none"
+        },
+        "editChecksListByReleaseVersionId": {
+            "endpoint": "PublishedEditChecks",
+            "method": "GET",
+            "action": "none"
+        },
+        "editCheckPaginationList": {
+            "endpoint": "PublishedEditChecks/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "editCheckStepsList": {
+            "endpoint": "PublishedEditCheckSteps/EditCheckId",
+            "method": "GET",
+            "action": "none"
+        },
+        "editCheckActionsList": {
+            "endpoint": "PublishedEditCheckActions/EditCheckId",
+            "method": "GET",
+            "action": "none"
+        },
+        "derivationPaginationList": {
+            "endpoint": "PublishedDerivations/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "derivationStepsList": {
+            "endpoint": "PublishedDerivationSteps/DerivationId",
+            "method": "GET",
+            "action": "none"
+        },
+        "derivationActionsList": {
+            "endpoint": "PublishedDerivationActions/DerivationId",
+            "method": "GET",
+            "action": "none"
+        },
+        "derivationsListByReleaseVersionId": {
+            "endpoint": "PublishedDerivations/ReleaseVersionId",
+            "method": "GET",
+            "action": "none"
+        }
+    },
+    "rolePermissionTypes": {
+        "paginationList": {
+            "endpoint": "RolePermissionTypes/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "listAll": {
+            "endpoint": "RolePermissionTypes",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "RolePermissionTypes",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "RolePermissionTypes",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "RolePermissionTypes",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "listAllRolePermissions": {
+            "endpoint": "RolePermissions",
+            "method": "GET",
+            "action": "none"
+        },
+        "assignRolePermissions": {
+            "endpoint": "RolePermissions",
+            "method": "PUT",
+            "action": "none"
+        }
+    },
+    "studies": {
+        "listAll": {
+            "endpoint": "Studies",
+            "method": "GET",
+            "action": "none"
+        },
+        "listAllTrialsByStudies": {
+            "endpoint": "StudyTrials",
+            "method": "GET",
+            "action": "none"
+        },
+        "listAllEnvironmentsByStudyTrialId": {
+            "endpoint": "StudyTrialEnvironment",
+            "method": "GET",
+            "action": "none"
+        }
+    },
+    "subjectSiteTransfers": {
+        "paginationList": {
+            "endpoint": "SubjectSiteTransfers/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "detailsById": {
+            "endpoint": "SubjectSiteTransfers",
+            "method": "GET",
+            "action": "none"
+        },
+        "create": {
+            "endpoint": "SubjectSiteTransfers",
+            "method": "POST",
+            "action": "none"
+        },
+        "update": {
+            "endpoint": "SubjectSiteTransfers",
+            "method": "PUT",
+            "action": "none"
+        },
+        "delete": {
+            "endpoint": "SubjectSiteTransfers",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "updateTransferRequest": {
+            "endpoint": "SubjectSiteTransfers/UpdateApprovalStatus",
+            "method": "PUT",
+            "action": "none"
+        }
+    }
+}

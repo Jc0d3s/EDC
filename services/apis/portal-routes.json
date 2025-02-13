@@ -1,0 +1,378 @@
+{
+    "users": {
+        "login": {
+            "endpoint": "auth/login",
+            "method": "POST",
+            "action": "none"
+        },
+        "userDetails": {
+            "endpoint": "auth",
+            "method": "GET",
+            "action": "none"
+        },
+        "setNewPassword": {
+            "endpoint": "Users/SetPassword",
+            "method": "PUT",
+            "action": "none"
+        },
+        "changePassword": {
+            "endpoint": "Users/ChangePassword",
+            "method": "PUT",
+            "action": "none"
+        },
+        "rolePermissionsList": {
+            "endpoint": "RolePermissions",
+            "method": "GET",
+            "action": "none"
+        },
+        "onboardUsersPaginationList": {
+            "endpoint": "OnboardUsers/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "onboardUserCreate": {
+            "endpoint": "OnboardUser",
+            "method": "POST",
+            "action": "none"
+        },
+        "onboardUserUpdate": {
+            "endpoint": "OnboardUser",
+            "method": "PUT",
+            "action": "none"
+        },
+        "onboardUserDetailsById": {
+            "endpoint": "Users/OnboardUsers",
+            "method": "GET",
+            "action": "none"
+        },
+        "rolePermissionsListByTrialIdAndEnvironment": {
+            "endpoint": "StudyUsers",
+            "method": "GET",
+            "action": "none"
+        },
+        "refreshToken": {
+            "endpoint": "RefreshToken",
+            "method": "POST",
+            "action": "none"
+        },
+        "logout": {
+            "endpoint": "Logout",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "triggerForgotPasswordOTP": {
+            "endpoint": "UserForgotPassword",
+            "method": "POST",
+            "action": "none"
+        },
+        "verifyForgotPasswordOTP": {
+            "endpoint": "ValidateUserPasswordOtp",
+            "method": "POST",
+            "action": "none"
+        },
+        "resetPassword": {
+            "endpoint": "UserResetPassword",
+            "method": "POST",
+            "action": "none"
+        }
+    },
+    "studies": {
+        "trialEnvironmentDetailsList": {
+            "endpoint": "TrialEnvironmentDetails",
+            "method": "GET",
+            "action": "none"
+        },
+        "detailsByTrialIdAndEnvironmentId": {
+            "endpoint": "StudiesByTrialIdAndEnvironmentId",
+            "method": "GET",
+            "action": "none"
+        },
+        "publishedFormsListByTrialIdAndEnvironmentId": {
+            "endpoint": "PublishedForms",
+            "method": "GET",
+            "action": "none"
+        },
+        "publishedTrialVisitsListByTrialIdAndEnvironmentId": {
+            "endpoint": "PublishedTrialVisits",
+            "method": "GET",
+            "action": "none"
+        },
+        "publishedFormFoldersListByTrialIdAndEnvironmentId": {
+            "endpoint": "PublishedFormFolders",
+            "method": "GET",
+            "action": "none"
+        },
+        "updatePublishedFormFolders": {
+            "endpoint": "PublishedFormFolders",
+            "method": "PUT",
+            "action": "none"
+        },
+        "latestReleaseVersionByTrialAndEnvironmentId": {
+            "endpoint": "PublishReleaseVersionNumber",
+            "method": "GET",
+            "action": "none"
+        }
+    },
+    "dataCollection": {
+        "formFieldStatusesList": {
+            "endpoint": "FormFieldStatuses",
+            "method": "GET",
+            "action": "none"
+        },
+        "subjectNestedList": {
+            "endpoint": "NestedSubjectDetails",
+            "method": "GET",
+            "action": "none"
+        },
+        "generateFormFieldStructure": {
+            "endpoint": "GenerateFormFieldStructure",
+            "method": "GET",
+            "action": "none"
+        },
+        "generateFormFields": {
+            "endpoint": "GenerateFormFields",
+            "method": "GET",
+            "action": "none"
+        },
+        "saveFormFields": {
+            "endpoint": "SavePublishedFormFieldDetails",
+            "method": "PUT",
+            "action": "none"
+        },
+        "publishedDataDictionaryEntriesById": {
+            "endpoint": "PublishedDataDictionaryEntries",
+            "method": "POST",
+            "action": "none"
+        },
+        "publishedUnitDictionaryEntriesById": {
+            "endpoint": "PublishedUnitDictionaryEntries",
+            "method": "POST",
+            "action": "none"
+        },
+        "previewDataDictionaryEntriesById": {
+            "endpoint": "PublishedDataDictionaryEntries/IsPublished",
+            "method": "POST",
+            "action": "none"
+        },
+        "previewUnitDictionaryEntriesById": {
+            "endpoint": "PublishedUnitDictionaryEntries/IsPublished",
+            "method": "POST",
+            "action": "none"
+        },
+        "changeFormFieldProgressStatus": {
+            "endpoint": "FormFieldProgressStatus",
+            "method": "POST",
+            "action": "none"
+        },
+        "formFieldCaptureSignature": {
+            "endpoint": "CaptureSignature",
+            "method": "POST",
+            "action": "none"
+        },
+        "subjectCompletionFormSigning": {
+            "endpoint": "SubjectCompletionFormSigning",
+            "method": "POST",
+            "action": "none"
+        },
+        "publishedSubjectFormFieldDetails": {
+            "endpoint": "PublishedSubjectFormFieldDetails",
+            "method": "POST",
+            "action": "none"
+        },
+        "formFieldCheckActionAudit": {
+            "endpoint": "FormFieldCheckActionAudit",
+            "method": "PUT",
+            "action": "none"
+        },
+        "publishedSubjectFormFieldStatusAuditByParentDetailId": {
+            "endpoint": "PublishedSubjectFormFieldStatusAudit/publishedSubjectFormFieldParentDetailId",
+            "method": "GET",
+            "action": "none"
+        },
+        "deleteFormFieldsByParentDetailId": {
+            "endpoint": "PublishedSubjectFormFields",
+            "method": "DELETE",
+            "action": "none"
+        },
+        "formFieldDetailsByIds": {
+            "endpoint": "FormFieldDetails",
+            "method": "POST",
+            "action": "none"
+        },
+        "processFormFieldEditCheck": {
+            "endpoint": "ProcessFormFieldEditCheck",
+            "method": "POST",
+            "action": "none"
+        },
+        "assignedDerivations": {
+            "endpoint": "AssignedDerivations",
+            "method": "POST",
+            "action": "none"
+        },
+        "formFieldVisiblityEditChecks": {
+            "endpoint": "FieldVisiblityEditChecks",
+            "method": "POST",
+            "action": "none"
+        },
+        "addFormEditChecks": {
+            "endpoint": "AddFormEditChecks",
+            "method": "POST",
+            "action": "none"
+        },
+        "disableFieldEditChecks": {
+            "endpoint": "DisableFieldEditChecks",
+            "method": "POST",
+            "action": "none"
+        },
+        "formFieldCheckActionStatus": {
+            "endpoint": "FormFieldCheckActionStatus",
+            "method": "PUT",
+            "action": "none"
+        },
+        "nonLogDataValueFieldEditChecks": {
+            "endpoint": "NonLogDataValueFieldEditChecks",
+            "method": "POST",
+            "action": "none"
+        }
+    },
+    "formFieldAuditDetails": {
+        "subjectDetailsPaginationList": {
+            "endpoint": "SubjectDetails/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "auditEntryDetails": {
+            "endpoint": "AuditEntryDetails",
+            "method": "GET",
+            "action": "none"
+        },
+        "auditFormDetails": {
+            "endpoint": "PublishedSubjectFormFieldChildDetails",
+            "method": "GET",
+            "action": "none"
+        },
+        "auditHistoryDetailsPaginationList": {
+            "endpoint": "AuditHistoryDetails/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        }
+    },
+    "discrepancies": {
+        "formFieldDiscrepancies": {
+            "endpoint": "FormFieldDiscrepancies",
+            "method": "POST",
+            "action": "none"
+        },
+        "discrepancyPaginationList": {
+            "endpoint": "FormFieldDiscrepancies/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "badgeCountDetails": {
+            "endpoint": "FormFieldDiscrepancies/PublishedSubjectFormFieldParentId",
+            "method": "GET",
+            "action": "none"
+        },
+        "discrepancyManagementPaginationList": {
+            "endpoint": "FormFieldDiscrepancyDashboard/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "detailsById": {
+            "endpoint": "FormFieldDiscrepancyDetails/FormFieldDiscrepancyId",
+            "method": "GET",
+            "action": "none"
+        },
+        "exportData": {
+            "endpoint": "ExportFormFieldDiscrepancy",
+            "method": "POST",
+            "action": "none"
+        }
+    },
+    "dashboard": {
+        "subjectTrialSitesCount": {
+            "endpoint": "SubjectTrialSitesCount",
+            "method": "POST",
+            "action": "none"
+        },
+        "adverseOrConcomitantCount": {
+            "endpoint": "AdverseOrConcomitantCount",
+            "method": "POST",
+            "action": "none"
+        },
+        "formFieldDiscrepanciesProgressStatusCount": {
+            "endpoint": "FormFieldDiscrepanciesProgressStatusCount",
+            "method": "POST",
+            "action": "none"
+        },
+        "subjectOverDueVisitCount": {
+            "endpoint": "SubjectOverDueVisitCount",
+            "method": "POST",
+            "action": "none"
+        },
+        "subjectByTrialAndEnvironment": {
+            "endpoint": "Subjects/TrialAndEnvironment",
+            "method": "POST",
+            "action": "none"
+        },
+        "sitesByTrialAndEnvironment": {
+            "endpoint": "Sites/TrialAndEnvironment",
+            "method": "GET",
+            "action": "none"
+        },
+        "saveAsQuickLink": {
+            "endpoint": "RecentlyAccessedPages",
+            "method": "POST",
+            "action": "none"
+        },
+        "quickLinksList": {
+            "endpoint": "RecentlyAccessedPages",
+            "method": "GET",
+            "action": "none"
+        },
+        "deleteQuickLinks": {
+            "endpoint": "RecentlyAccessedPages",
+            "method": "DELETE",
+            "action": "none"
+        }
+    },
+    "dataViewOrExport": {
+        "publishedFormFieldExportData": {
+            "endpoint": "PublishedFormFieldExportData",
+            "method": "POST",
+            "action": "none"
+        },
+        "publishedFormFieldsViewData": {
+            "endpoint": "PublishedFormFieldsViewData",
+            "method": "GET",
+            "action": "none"
+        },
+        "blankCRF": {
+            "endpoint": "BlankCRF",
+            "method": "POST",
+            "action": "none"
+        },
+        "annotatedCRF": {
+            "endpoint": "AnnotatedCRF",
+            "method": "POST",
+            "action": "none"
+        }
+    },
+    "myTasks": {
+        "taskPaginationList": {
+            "endpoint": "Tasks/PagedResponse",
+            "method": "GET",
+            "action": "none"
+        },
+        "processTask": {
+            "endpoint": "Tasks",
+            "method": "PUT",
+            "action": "none"
+        },
+        "taskNotificationCount": {
+            "endpoint": "Tasks/PendingCount",
+            "method": "GET",
+            "action": "none"
+        }
+    }
+}
